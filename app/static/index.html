@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StravaKiller</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="side">
+      <div class="brand"><span class="mark" aria-hidden="true"></span>StravaKiller</div>
+      <nav id="nav" aria-label="Sezioni"></nav>
+      <div class="sync">
+        <button id="syncBtn" class="btn primary">Sincronizza</button>
+        <p id="syncText" class="muted small" role="status"></p>
+      </div>
+    </aside>
+    <main>
+      <div id="demoBanner" class="banner" hidden>Stai guardando <strong>dati di esempio</strong> inventati. Non sono i tuoi dati Garmin.</div>
+      <div id="view"></div>
+    </main>
+  </div>
+  <div id="drawer" class="drawer" hidden role="dialog" aria-modal="true" aria-label="Dettaglio attività"></div>
+  <script src="/static/vendor/chart.umd.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>

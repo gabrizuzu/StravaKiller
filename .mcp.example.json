@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "stravakiller": {
+      "command": "C:\\Users\\YOUR_USER\\AppData\\Local\\GarminCoach\\venv\\Scripts\\python.exe",
+      "args": ["C:\\path\\to\\StravaKiller\\mcp_run.py"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local data and secrets (the app stores them in %LOCALAPPDATA%\GarminCoach, this is a safety net)
+*.db
+*.db-wal
+*.db-shm
+secrets.json
+.env
+
+# Machine-specific configuration
+.mcp.json
+.claude/
